@@ -25,7 +25,7 @@ function Hero() {
         <img
           src={heroImg}
           className={styles.hero}
-          alt="Profile picture of Harris Johnsen"
+          alt="Ozodbek Mirsaidov"
         />
         <img
           className={styles.colorMode}
@@ -45,7 +45,7 @@ function Hero() {
           <a href="https://twitter.com/" target="_blank">
             <img src={twitterIcon} alt="Twitter icon" />
           </a>
-          <a href="https://github.com/" target="_blank">
+          <a href="https://github.com/OzodbekMirsaidov" target="_blank">
             <img src={githubIcon} alt="Github icon" />
           </a>
           <a href="https://linkedin.com/" target="_blank">
