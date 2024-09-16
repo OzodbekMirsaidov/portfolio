@@ -5,22 +5,24 @@ import hipsster from '../../assets/hipsster.png';
 import fitLift from '../../assets/fitlift.png';
 import ProjectCard from '../../common/ProjectCard';
 
-function  Projects() {
+function Projects() {
   return (
     <section id="projects" className={styles.container}>
       <h1 className="sectionTitle">Projects</h1>
       <div className={styles.projectsContainer}>
         <ProjectCard
           src={viberr}
-          link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="Viberr"
-          p="Streaming App"
+          link="https://imaginative-cat-e3119d.netlify.app/"
+          h3="Furniro"
+          p="
+          furniture shop"
         />
         <ProjectCard
           src={freshBurger}
-          link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="Fresh Burger"
-          p="Hamburger Restaurant"
+          link="https://arusa-nine.vercel.app/"
+          h3="Arusa"
+          p="
+          bride shop"
         />
         <ProjectCard
           src={hipsster}
